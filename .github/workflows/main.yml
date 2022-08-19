@@ -19,6 +19,7 @@ jobs:
       - name: Build
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
+        # token is generated previously
         run: hugo --minify
 
       - name: Deploy
